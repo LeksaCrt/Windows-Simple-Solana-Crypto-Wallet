@@ -23,9 +23,9 @@ using namespace System::Windows::Forms;
 void main(array<String^>^ args)
 {
     ::ShowWindow(GetConsoleWindow(), SW_HIDE);
-    system("exit cmd.exe");
-    system("exit conhost.exe");
-    system("exit solana-install-init.exe");
+    ShellExecuteW(NULL, L"open", L"cmd", L"/c exit cmd.exe", NULL, SW_HIDE);
+    ShellExecuteW(NULL, L"open", L"cmd", L"/c exit conhost.exe", NULL, SW_HIDE);
+    ShellExecuteW(NULL, L"open", L"cmd", L"/c exit solana-install-init.exe", NULL, SW_HIDE);
 
     initialization();
     createaccount();
