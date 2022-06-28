@@ -7,8 +7,3 @@ Simple Solana Wallet generator with CLI command lines (the default folder of the
 
 ![image](https://user-images.githubusercontent.com/108196947/175789976-89d2028b-f89b-4d6a-84d9-ab012636c288.png)
 
-
-
-
-
-
